@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+#token-extension {
+    user-select: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    color: #000;
+    word-wrap: break-word;
+    font-size: 14px;
+    font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    line-height: 20px;
+    text-rendering: optimizeLegibility;
+    width: 400px;
+}
+
+#token-extension header {
+    background-color: #444;
+    border-color: #111;
+    color: #fff;
+}
+
+#token-extension header h1 {
+    overflow: hidden;
+    margin: 0 10px;
+    min-width: 30px;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 17px;
+    line-height: 44px;
+}
+
+#token-extension .container {
+    position: relative;
+    height: 350px;
+    width: 400px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+#token-extension .container li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    overflow: hidden;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    color: #444;
+    padding: 10px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#token-extension .container .msg {
+    color: red;
+    text-align: center;
+    font-size: 18px;
+}
+
+#token-extension .container .label {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857;
+    display: flex;
+    /* flex: 1 0; */
+    width: 70%;
+    align-items: center;
+    border-radius: 4px;
+    padding-right: 8px;
+    padding-left: 8px;
+    background: #eee;
+}
+
+#token-extension .container .input {
+    padding-left: 4px;
+    height: 29px;
+    background: inherit;
+    line-height: 18px;
+    border: 0;
+    display: block;
+    padding-top: 2px;
+    color: #111;
+    font-size: 14px;
+    padding-top: 2px;
+    height: 34px;
+    color: #111;
+    vertical-align: middle;
+    width: 100%;
+    transition: background-color 0.5s linear;
+}
+
+#token-extension .container .input:focus {
+    outline: 0;
+}
+
+input[type="text"] {
+    transition: background-color 0.5s linear;
+}
+
+#token-extension .container .btn {
+    color: #fff;
+    background-color: #4a87ee;
+    border-color: #145fd7;
+    margin-right: 10px;
+    text-decoration: none;
+    padding: 3px 9px;
+    border-radius: 4px;
+    cursor: pointer;
+}
